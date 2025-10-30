@@ -32,7 +32,7 @@ fadeBtn.addEventListener('click', () => toggleDarkMode('fade'));
 slideBtn.addEventListener('click', () => toggleDarkMode('slide'));
 
 /* ===== GOOGLE SHEETS: CARREGAR PRODUTOS ===== */
-const SHEET_ID = "SEU_ID_DA_PLANILHA_AQUI"; // 🔹 substitua pelo ID real
+const SHEET_ID = "1yJqq-aL5oUnBtxb93bJy2JwLx3ccwuaoQz_UbHAI5_s"; // 🔹 substitua pelo ID real
 const SHEET_URL = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv`;
 
 async function carregarProdutos() {
@@ -157,3 +157,4 @@ function configurarBusca(produtos) {
 }
 
 carregarProdutos();
+
